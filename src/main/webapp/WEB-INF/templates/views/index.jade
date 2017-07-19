@@ -1,0 +1,9 @@
+- attributes("title") = "Search for the best deals in any destination"
+- attributes("headline") = "Search for deals"
+
+form(name="search" action="/search" method="post")
+  div.input
+    Destination City:
+    input(type="text" name="destinationCity")
+  div.actions
+    input(type="submit" value="Search")
